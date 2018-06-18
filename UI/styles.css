@@ -64,6 +64,18 @@ input[type=submit]{
 }
 /* End of Ride page style */
 
+/* Profile page style */
+.profile {
+    margin: 50px;
+    /* float: right; */
+    background-color: #11369bd4;
+    width: 50%;
+    box-shadow: 5px 10px #0000008f;
+}
+#profile {
+    margin-left: 50px;
+}
+
 
 /* Navigation design */
 #nav{
@@ -136,7 +148,11 @@ a:visited{
     margin: 20px 0;
 }
 h5, h4 {
-    color: #11369b
+    color: #d0f5f7;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
 }
 
 /* Main container design */
