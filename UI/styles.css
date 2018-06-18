@@ -85,13 +85,13 @@ a{
     color: black;
 }
 a:hover{
-    color: orangered;
+    color: rgb(31, 127, 238);
 }
 a:active{
-    color: greenyellow;
+    color: rgb(23, 202, 202);
 }
 a:visited{
-    color: firebrick;
+    color: rgb(235, 232, 248);
 }
 
 /* showcase view design */
@@ -202,10 +202,11 @@ th, td {
     padding: 8px;
 }
 
-tr:nth-child(even){background-color: #11369b}
+tr:nth-child(even){background-color: #7a839c}
+tr:nth-child(odd){background-color: #333}
 
 th {
-    background-color: coral;
+    background-color: rgb(12, 96, 223);
     color: white;
 }
 
