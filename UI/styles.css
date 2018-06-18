@@ -6,7 +6,8 @@ body{
     font-size: 16;
     line-height: 1.5em;
     margin: 0;
-    background-image: url('images/ridee3.png');
+    background-image: url('images/myride.jpg');
+    background-size: cover;
     background-repeat:no-repeat;
 }
 
@@ -21,6 +22,35 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/* Registration page style */
+/* .reg {
+    background-color: #11369b;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.heading {
+    text-align: center;
+    margin: 20px 30px 10px 50px;
+    padding: 20px 20px;
+}
+input {
+    width: 10%;
+}
+input[type=submit]{
+    width: 15%;
+}
+.reg2 {
+    width: 50%;
+    background-color: #878dabbf;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Registration page style */
 
 
 /* Navigation design */
@@ -134,10 +164,11 @@ h5, h4 {
 
 /* Designing Buttons */
 .button{
-    background-color: rgb(78, 231, 6);
+    background-color: rgb(12, 96, 223);
     color: wheat;
     padding: 10px 15px;
     border-radius: 15px;
+    border: none;
 }
 .button:hover{
     background: rgb(31, 127, 238);
